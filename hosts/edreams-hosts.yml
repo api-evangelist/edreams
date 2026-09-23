@@ -1,0 +1,89 @@
+generated: '2026-09-23'
+method: derived
+source: the pre-flight dossier, apis.yml pointers, spec servers, well-known, vendors -- nothing fetched here
+generator: derive-hosts.py
+summary:
+  hosts: 6
+  own: 6
+  other_domain: 0
+  platform: 0
+  roles:
+  - api
+  - other
+  - support
+  - website
+hosts:
+- host: api.edreams.com
+  found_by:
+  - contract-discovery
+  types: []
+  serves: []
+  registrable_domain: edreams.com
+  role: api
+  relation: own
+- host: edreams.com
+  found_by:
+  - probed
+  - contract-discovery
+  - well-known
+  types: []
+  serves: []
+  registrable_domain: edreams.com
+  role: other
+  relation: own
+- host: help.edreams.com
+  found_by:
+  - pointer
+  - probed
+  - site-links
+  - docs-index
+  - contract-discovery
+  - well-known
+  - vendor-detect
+  types:
+  - Support
+  serves:
+  - docs
+  - support
+  vendor: zendesk
+  registrable_domain: edreams.com
+  role: support
+  relation: own
+- host: rentacar.edreams.com
+  found_by:
+  - probed
+  - site-links
+  - contract-discovery
+  - well-known
+  types: []
+  serves: []
+  registrable_domain: edreams.com
+  role: other
+  relation: own
+- host: transfers.edreams.com
+  found_by:
+  - probed
+  - site-links
+  - contract-discovery
+  - well-known
+  types: []
+  serves: []
+  registrable_domain: edreams.com
+  role: other
+  relation: own
+- host: www.edreams.com
+  found_by:
+  - pointer
+  - vendor-detect
+  types:
+  - TermsOfService
+  - PrivacyPolicy
+  - Newsroom
+  - Website
+  - Blog
+  serves:
+  - cdn
+  vendor: cloudflare
+  registrable_domain: edreams.com
+  role: website
+  relation: own

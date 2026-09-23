@@ -1,23 +1,77 @@
 aid: edreams
+
 name: eDreams ODIGEO
-description: 'eDreams ODIGEO is a company surfaced via the API Evangelist harvest backlog (source: travel)
-  and added to the network as a stub for full-pipeline profiling.'
+
+image: https://www.edreams.com/images/onefront/bluestone/ED/OpenGraph.png
+
+description: 'eDreams ODIGEO is a leading online travel agency operating globally, offering a comprehensive platform for booking flights, hotels, vacation packages, and car rentals. The company provides a range of travel services through its website and mobile apps, serving millions of customers worldwide. It is part of the ODIGEO group, which includes other travel brands, and focuses on delivering competitive prices, a user-friendly experience, and extensive travel options across numerous destinations.'
+
 url: https://raw.githubusercontent.com/api-evangelist/edreams/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:travel
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-09-23 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-09-23'
+
 modified: '2026-09-23'
+
 tags:
-- Company
-apis: []
+- Travel
+- Booking
+- Flights
+- Hotels
+- Car Rentals
+- Europe
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
 common:
+- type: Documentation
+  url: https://help.edreams.com/
+- type: LLMsTxt
+  url: llms/edreams-llms.txt
+- type: Hosts
+  url: hosts/edreams-hosts.yml
+- type: Vendors
+  url: vendors/edreams-vendors.yml
+- type: TermsOfService
+  url: https://www.edreams.com/terms-and-conditions/
+- type: PrivacyPolicy
+  url: https://www.edreams.com/privacy-policy/
+- type: Newsroom
+  url: https://www.edreams.com/our-brand/news/
+- type: DomainSecurity
+  url: security/edreams-domain-security.yml
 - type: Website
-  url: https://edreams.com/
+  url: https://www.edreams.com/
+- type: Blog
+  url: https://www.edreams.com/blog
+- type: Support
+  url: https://help.edreams.com
+
+apis: []
+
+x-coverage:
+  state: blocked
+  reason: bot-challenge
+  detail: "Help site https://help.edreams.com/hc/en-150 returned a bot challenge (403) preventing access to documentation and contracts."
+  evidence:
+    - url: https://help.edreams.com/hc/en-150
+      status: 403
+  checked: "2026-09-23"
+x-enrichment:
+  date: '2026-09-23'
+  status: enriched
+  artifacts_added: 7
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local

@@ -1,0 +1,46 @@
+# Mozio
+
+> Mozio is a global ground transportation booking platform connecting travelers, travel brands, and transport providers worldwide.
+
+## About
+
+Mozio Inc. was founded in 2011 and operates a marketplace that aggregates 3,000+ transport providers across 180+ countries and 3,500+ airports. The platform handles the full booking lifecycle — search, pricing, booking, driver coordination, and post-trip support — for airport transfers, taxis, shuttles, limousines, buses, and hourly rides.
+
+Mozio is rated 4.9/5 based on 17,800+ reviews on Trustpilot.
+
+## Services for Travelers
+
+- **Airport Transfers** — Point-to-point ground transport (taxis, shuttles, sedans, vans, limousines, buses) to and from airports worldwide.
+- **Hourly Rides** — Hire a chauffeured vehicle by the hour for flexible city travel and multi-stop trips.
+- **Airport Parking** — Compare and book parking options across major airports.
+- **Travel eSIM** — International data plans for travelers.
+
+Key guarantees: free cancellation up to 24 hours before pickup, meet-and-greet service, real-time flight monitoring with automatic delay handling, 24/7 customer support, and a network of licensed, vetted drivers.
+
+## Solutions for Travel Brands
+
+Mozio offers white-label and API-based integrations for:
+
+- **Online Travel Agencies (OTAs)**
+- **Tour operators**
+- **Corporate and business travel platforms**
+- **Hotels**
+- **Tours & activities platforms**
+- **Travel distribution platforms (GDS)**
+
+Integration options include a full white-label product, a REST API, an embeddable search widget, and a travel agent booking tool. Partners get one contract covering global inventory, with flight monitoring and driver coordination handled by Mozio.
+
+## Key Facts
+
+- Founded: 2011
+- Coverage: 180+ countries, 3,500+ airports, 3,000+ transport providers
+- Supported languages: 17+
+- Contact: info@mozio.com | +1 415 969 7669
+- Headquarters: Beaverton, OR, USA
+
+## Links
+
+- Homepage: https://www.mozio.com
+- Sitemap: https://www.mozio.com/sitemap.xml
+- API & partner solutions: https://www.mozio.com/en-us/travel-industry/
+- Blog: https://www.mozio.com/en-us/news/
